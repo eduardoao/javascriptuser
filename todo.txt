@@ -1,0 +1,8 @@
+[X] 1. "Subir" o backend de usuários 
+[X] 2. Carregar os dados dos usuários em um array.
+[X] 3. Permitir a filtragem de usuários através de um input com interação do usuário.
+[X] 4. O usuário poderá filtrar dados quando digitar pelo menos um caractere no input.
+[] 5. O usuário poderá filtrar os dados tanto digitando "Enter" quanto clicando no botão correspondente
+[] 6. Montar dois painéis.
+[] 7. No painel da esquerda, listar os usuários filtrados.
+[] 8. No painel da direita, calcular e mostrar algumas estatísticas sobre esses usuários,

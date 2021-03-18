@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de usuários</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Pesquisa de usuários</h2>
+    <div class="row">
+      <div class="input-field col s10">
+        <input id="inputfinduser" type="text" class="materialize-textarea" data-length="120" />
+       
+      </div>
+      <div class="col s2">
+        <button id="btnfindusers" class="btn waves-effect waves-light" type="submit">Buscar</button>
+      </div>
+    </div>
+
+
+      <div class="challenge-container">
+
+        <div class="challenge-list">      
+          <div id="tabUsers">
+            <h6 id="headresultusers"></h6>
+        </div>
+      </div>
+    
+      <div class="challenge-list">       
+        <div id="tabMetrics">  
+          <h6 id="headresultumetrics"></h6>
+          <div id="contentmetrics"></div>
+        </div>
+      </div> 
+
+  </div>
+  
+</body>
+<script src="js/previewusers.js"></script>
+</html>
